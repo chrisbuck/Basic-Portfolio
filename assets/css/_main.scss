@@ -1,0 +1,138 @@
+h2 {
+    font-size: $font-size__h2;
+    font-family: $font-family__header;
+    font-weight: bold;
+}
+.left-align {
+    float: left;
+    padding-right: 20px;
+}
+.wrap-right {
+    width: 466px;
+}
+.fa {
+    float: left;
+    padding-right: 6px;
+}
+.fa-3 {
+    font-size: 38px;
+}
+.fa-linkedin {
+    color: white;
+    background-color: #1f52fd;
+    padding-left: 6px;
+}
+
+body {
+    font-family: $font-family__normal;
+    #page {
+        
+        #nav {
+            width: 100%;
+            height: 96px;
+            border-bottom: 2px solid #cccccc;
+            background-color: white;
+            #header-wrapper {
+                width: 960px;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: white;
+                #header{
+                    float: left;
+                    #site-name {
+                        background-color: $color__teal;
+                        color: white;
+                        padding-top: 30px;
+                        padding-bottom: 30px;
+                        padding-left: 20px;
+                        padding-right: 20px;
+
+                    }
+                }
+                #menu {
+                    float: right;
+                    width: auto;
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                    #nav-links {
+                        list-style: none;
+                        text-decoration: none;
+                        li {
+                            float: left;
+                            padding-left: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #content-wrapper {
+        float: left;
+        width: 100%;
+        height: auto;
+        background-image: url("../images/cork-wallet.png");
+        background-size: cover;
+        padding-bottom: 30px;
+        #content{
+            width: 960px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+            #main {
+                width: 636px;
+                float: left;
+                background-color: white;
+                padding-top: 40px;
+                padding-left: 20px;
+                padding-right: 20px;
+                border: 1px solid #dddddd;
+                #content-title {
+                    h2 {
+                        color: $color__teal;
+                        padding-bottom: 30px;
+                    }
+                    border-bottom: 3px solid #dddddd;
+                }
+                #inner-content {
+                    padding-top: 20px;
+                    color: $color-font__normal;
+                    #headshot {
+                        width: 150px;
+                        height: auto;
+                    }
+                    p {
+                        float: left;
+                        line-height: 2.1em;
+                    }
+                    .par-normal {
+                        margin-top: 20px;
+                    }
+                }
+            }
+            #sidebar {
+                width: 210px;
+                min-height: 100px;
+                background-color: white;
+                margin-left: 30px;
+                float: left;
+                border: 1px solid #dddddd;
+                padding: 30px 20px 30px 20px;
+                #sidebar-title {
+                    h3 {
+                        color: $color__teal;
+                        font-family: $font-family__header;
+                        font-weight: bold;
+                        font-size: 22px;
+                        
+                    }
+                    padding-bottom: 20px;
+                    border-bottom: 2px solid #eaeaea;
+                }
+                #sidebar-content {
+                    padding-top: 20px;
+                }
+
+            }            
+        }
+    }
+}

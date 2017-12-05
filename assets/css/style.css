@@ -1,3 +1,6 @@
+/* Font Families */
+/* Font Sizes */
+/* Colors */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -44,5 +47,116 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+h2 {
+  font-size: 32px;
+  font-family: "Georgia", Times, Times New Roman, serif;
+  font-weight: bold; }
+
+.left-align {
+  float: left;
+  padding-right: 20px; }
+
+.wrap-right {
+  width: 466px; }
+
+.fa {
+  float: left;
+  padding-right: 6px; }
+
+.fa-3 {
+  font-size: 38px; }
+
+.fa-linkedin {
+  color: white;
+  background-color: #1f52fd;
+  padding-left: 6px; }
+
+body {
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif; }
+  body #page #nav {
+    width: 100%;
+    height: 96px;
+    border-bottom: 2px solid #cccccc;
+    background-color: white; }
+    body #page #nav #header-wrapper {
+      width: 960px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: white; }
+      body #page #nav #header-wrapper #header {
+        float: left; }
+        body #page #nav #header-wrapper #header #site-name {
+          background-color: #4aaaa5;
+          color: white;
+          padding-top: 30px;
+          padding-bottom: 30px;
+          padding-left: 20px;
+          padding-right: 20px; }
+      body #page #nav #header-wrapper #menu {
+        float: right;
+        width: auto;
+        padding-top: 30px;
+        padding-bottom: 30px; }
+        body #page #nav #header-wrapper #menu #nav-links {
+          list-style: none;
+          text-decoration: none; }
+          body #page #nav #header-wrapper #menu #nav-links li {
+            float: left;
+            padding-left: 20px; }
+  body #content-wrapper {
+    float: left;
+    width: 100%;
+    height: auto;
+    background-image: url("../images/cork-wallet.png");
+    background-size: cover;
+    padding-bottom: 30px; }
+    body #content-wrapper #content {
+      width: 960px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 30px; }
+      body #content-wrapper #content #main {
+        width: 636px;
+        float: left;
+        background-color: white;
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 1px solid #dddddd; }
+        body #content-wrapper #content #main #content-title {
+          border-bottom: 3px solid #dddddd; }
+          body #content-wrapper #content #main #content-title h2 {
+            color: #4aaaa5;
+            padding-bottom: 30px; }
+        body #content-wrapper #content #main #inner-content {
+          padding-top: 20px;
+          color: #777777; }
+          body #content-wrapper #content #main #inner-content #headshot {
+            width: 150px;
+            height: auto; }
+          body #content-wrapper #content #main #inner-content p {
+            float: left;
+            line-height: 2.1em; }
+          body #content-wrapper #content #main #inner-content .par-normal {
+            margin-top: 20px; }
+      body #content-wrapper #content #sidebar {
+        width: 210px;
+        min-height: 100px;
+        background-color: white;
+        margin-left: 30px;
+        float: left;
+        border: 1px solid #dddddd;
+        padding: 30px 20px 30px 20px; }
+        body #content-wrapper #content #sidebar #sidebar-title {
+          padding-bottom: 20px;
+          border-bottom: 2px solid #eaeaea; }
+          body #content-wrapper #content #sidebar #sidebar-title h3 {
+            color: #4aaaa5;
+            font-family: "Georgia", Times, Times New Roman, serif;
+            font-weight: bold;
+            font-size: 22px; }
+        body #content-wrapper #content #sidebar #sidebar-content {
+          padding-top: 20px; }
 
 /*# sourceMappingURL=style.css.map */
