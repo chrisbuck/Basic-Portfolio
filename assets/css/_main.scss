@@ -12,15 +12,25 @@ h2 {
 }
 .fa {
     float: left;
-    padding-right: 6px;
+    color: white;
+    padding: 8px 11px 8px 11px;
 }
 .fa-3 {
     font-size: 38px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+}
+.fa-github {
+    background-color: #333333;
 }
 .fa-linkedin {
-    color: white;
-    background-color: #1f52fd;
-    padding-left: 6px;
+    background-color: #007ab9;
+}
+.fa-stack-overflow {
+    background-color: #ffa500
+}
+.fa-wordpress {
+    background-color: #464646;
 }
 
 body {
